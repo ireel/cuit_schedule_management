@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # cuit_schedule_management
 成都信息工程大学课表管理
 
