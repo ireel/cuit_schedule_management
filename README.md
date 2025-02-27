@@ -162,3 +162,6 @@
 
 ### 配置
 在```setting.py```中配置项目根目录
+
+### 用例
+![alt text](example.png)
