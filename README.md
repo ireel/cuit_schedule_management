@@ -1,9 +1,27 @@
 # cuit_schedule_management
 成都信息工程大学课表管理
 
+# 安装环境
++ beautifulsoup
++ lxml
+```bash
+pip install beautifulsoup4
+pip install lxml
+```
+
 ### 获取课表数据
-可通过html处理（后续考虑更新）
+可通过html处理
 或手填(不是很多，填一次用一学期)
+
+##### html处理:
+复制课表所在的tbody:
+![](img/example2.png)
+
+将复制的数据填入```raw_data```中的html文件中
+可以自己创建也可以直接填```example.html```里
+
+填完运行```html_to_data.py```
+获得课表的json数据
 
 形如:
 ```json
@@ -163,4 +181,4 @@
 在```setting.py```中配置项目根目录
 
 ### 用例
-![alt text](example.png)
+![alt text](img/example.png)

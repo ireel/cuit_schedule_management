@@ -4,6 +4,7 @@ import json
 
 def load_data(filename):
     with open(f"{setting.path}data/{filename}", "r", encoding="utf-8") as json_file:
+    #with open(f"data/{filename}", "r", encoding="utf-8") as json_file:
         loaded_data = json.load(json_file)
     
     return loaded_data
@@ -33,7 +34,7 @@ def make_message(lesson_list):
     return text
 
 if __name__ == "__main__":
-    loaded_data = load_data("example_lesson_list.json")
+    loaded_data = load_data("example.json")
     week = int(input("要查询的周次:"))
     day = int(input("要查询星期几:"))
     lesson_list = find_lesson(loaded_data,week,day)
