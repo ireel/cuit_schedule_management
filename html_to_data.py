@@ -51,8 +51,6 @@ class Converter():
         parts = [part for part in parts if part]
         print(parts)
         for i in range(0, len(parts), 4):
-            # print(i)
-            # print(parts)
             # 解析基础字段
             data = {
                 "name": parts[i].split("：")[0].strip(),
