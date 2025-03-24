@@ -1,1 +1,1 @@
-path = "/home/pi/desktop/dream/"
+path = ""
